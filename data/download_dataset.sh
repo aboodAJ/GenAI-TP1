@@ -1,0 +1,1 @@
+mkdir -p ./irishman && wget -O ./irishman/train.json https://huggingface.co/datasets/sander-wood/irishman/resolve/main/train.json && wget -O ./irishman/validation.json https://huggingface.co/datasets/sander-wood/irishman/resolve/main/validation.json
