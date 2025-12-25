@@ -4,7 +4,7 @@
 Ce travail pratique a pour objectif de concevoir et d'entraîner un Réseau de Neurones Récurrent (RNN), spécifiquement un LSTM (Long Short-Term Memory), pour générer des mélodies de musique irlandaise au format ABC. Nous utilisons la bibliothèque PyTorch pour l'implémentation.
 
 ## 2. Analyse et Prétraitement des Données
-Les données proviennent du dataset `sander-wood/irishman` et sont fournies au format JSON. Chaque entrée contient la notation ABC d'une chanson.
+Les données proviennent du dataset `sander-wood/irishman` et sont fournies au format JSON, vous pouvez les télécharger en utilisant le script `download_dataset.sh`. Chaque entrée contient la notation ABC d'une chanson.
 
 ### 2.1 Le Format ABC
 La notation ABC utilise des caractères ASCII pour représenter les notes, les durées et les métadonnées musicales (titre, clé, mesure).
