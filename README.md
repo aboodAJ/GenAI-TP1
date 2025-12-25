@@ -46,7 +46,6 @@ L'entraînement utilise la fonction de perte **CrossEntropyLoss** qui est adapt�
 Nous surveillons deux métriques :
 - **Training Loss** : Pour vérifier l'apprentissage.
 - **Validation Loss** : Pour vérifier la généralisation et éviter le surapprentissage (Overfitting).
-Le "Early Stopping" sauvegarde le meilleur modèle basé sur la validation loss.
 
 ## 5. Génération
 La génération de nouvelles musiques se fait caractère par caractère.
